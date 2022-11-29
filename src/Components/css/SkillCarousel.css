@@ -1,0 +1,34 @@
+.slider-arrow {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+   
+    width: 200px;
+    height: 200px;
+  
+  
+  
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    display: none;
+  }
+  .arrow-btn {
+    top: 45%;
+  }
+  .next {
+    float: right;
+  }
+  .prev {
+    float: left;
+  }
+  
+    .slick-list {
+   
+    }

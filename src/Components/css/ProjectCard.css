@@ -1,0 +1,35 @@
+a { 
+    transition: all .2s ease-in-out; 
+    }
+a:hover { 
+    transform: scale(1.05); 
+    }
+
+.projectcard{
+
+    height:150px;
+    width:250px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-radius:10px;
+    margin-right:20px
+}
+
+@media (max-width: 800px) {
+    .projectcard{
+
+        height:150px;
+        width:250px;
+        background-color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        border-radius:10px;
+        margin:20px
+    }
+    
+
+
+}

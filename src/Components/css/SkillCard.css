@@ -1,0 +1,33 @@
+
+
+.skillCard
+{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    height:150px;
+    width:150px;
+
+    margin:5px;
+    background-color:white;
+    box-shadow:"";
+    border-radius:75px
+}
+
+
+
+@media (max-width: 800px) {
+    .skillCard
+    {
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        height:100px;
+        width:100px;
+        margin:5px;
+        background-color:white;
+        box-shadow:"";
+        border-radius:50px
+    }
+    
+}
