@@ -1,0 +1,86 @@
+
+.QuickContactDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+  }
+  .QuickContactDiv h4 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .QuickContactEmail
+  {
+      width: 30%;
+      height: 40px;
+      border-radius: 5px;
+      border: 0px; 
+  }
+  
+  .QuickContacMessage
+  {
+      border-radius: 5px;
+      border: 0px;
+       width: 30%
+  }
+  .QuickContactButton
+  {
+      background-color: #1c1cd6;
+      height: 40px;
+      width: 150px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px 0.5px rgb(26, 17, 101);
+      margin-bottom: 20px;
+      cursor: pointer;
+      color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+  }
+  @media (max-width: 800px) {
+
+    .QuickContactDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 300px;
+    }
+    .QuickContactDiv h4 {
+      margin-top: 10px;
+      font-size: 25px;
+    }
+    
+    .QuickContactEmail
+    {
+        width: 70%;
+        height: 40px;
+        border-radius: 5px;
+        border: 0px; 
+    }
+    
+    .QuickContacMessage
+    {
+        border-radius: 5px;
+        border: 0px;
+         width: 70%
+    }
+    .QuickContactButton
+    {
+        background-color: #1c1cd6;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0.5px rgb(26, 17, 101);
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        
+    }
+  }
