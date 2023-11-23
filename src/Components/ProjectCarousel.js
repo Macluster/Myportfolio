@@ -86,7 +86,7 @@ function ProjectCarousel(props) {
         style={{ height: 100, width: 50, zIndex: 9 }}
         onClick={onClick}
       >
-        <img src={rightarrow} height={50} width={50}></img>
+       
       </div>
     );
   }
@@ -99,7 +99,7 @@ function ProjectCarousel(props) {
         style={{ height: 100, width: 50, zIndex: 9 }}
         onClick={onClick}
       >
-        <img src={leftarrow} height={50} width={50}></img>
+      
       </div>
     );
   }
